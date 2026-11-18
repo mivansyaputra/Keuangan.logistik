@@ -1,0 +1,63 @@
+FENACE KEUANGAN LOGISTIK  -  BY.Mbahjimut
+Catatan kas operasional madrasah + LPJ tiga bulanan (Hijriyah dan Masehi)
+
+ISI FOLDER (semua diupload ke GitHub, tanpa subfolder)
+  index.html          aplikasinya
+  intro.mp4           animasi pembuka (ketuk layar untuk melewati)
+  logo.png            logo
+  icon-192.png        ikon layar utama
+  icon-512.png        ikon layar utama
+  manifest.json       data pemasangan
+  service-worker.js   agar bisa dibuka tanpa internet
+
+A. PASANG DI GITHUB (iPhone / HP)
+  1. Buat repo baru, misalnya "fenace-kas", jenis Public.
+  2. Add file > Upload files, pilih ketujuh file di atas, lalu Commit changes.
+  3. Settings > Pages > Branch main, folder root > Save. Tunggu 1-2 menit.
+  4. Buka alamat Pages di Safari, muat ulang 2 kali.
+  5. Bagikan > Tambah ke Layar Utama.
+  Catatan: repo Public bisa dilihat orang, tapi DATA kas tidak ikut karena tersimpan
+  di HP-mu saja, bukan di file. Jangan upload file cadangan (.json) atau Excel LPJ ke repo.
+
+B. PAKAI HARIAN
+  1. Uang diterima dari TU: Beranda > + Uang masuk, isi nominal, Simpan.
+  2. Setelah belanja: + Belanja. Satu nota banyak barang boleh, ketuk + Tambah barang.
+     Kategori terpilih otomatis dari nama barang (bisa kamu ganti). Garis kuning =
+     kategori belum pasti, mohon dicek.
+  3. Atau ketuk "Foto nota belanja": foto nota, barang dibaca otomatis, cek lalu Simpan.
+  4. Tanggal Hijriyah muncul otomatis. Kalau beda 1 hari dengan kalender madrasah,
+     ketuk tombol - / + di bawah tanggal, atau atur di Atur > Koreksi tanggal Hijriyah.
+  5. Hari menuju akhir triwulan tampil di Beranda (merah kalau tinggal 14 hari).
+
+C. KATEGORI OTOMATIS
+  Rampatan      : makanan, minuman, buah, camilan, kopi, susu, air mineral, dll.
+  Perlengkapan  : tisu, sabun, sunlight, plastik/kresek, alat kebersihan, ATK, baterai, dll.
+  Konsumsi      : nama barang diawali kons / konsumsi / upah / honor / jasa / tukang
+  Transportasi  : bensin, parkir, ojek, tol, tiket, dll.
+  Nama yang pernah kamu catat dan kamu ubah kategorinya akan diingat untuk berikutnya.
+
+D. LPJ TIAP 3 BULAN
+  1. Tab LPJ, pilih triwulan dan tahun Hijriyah.
+  2. Ekspor Excel triwulan ini: satu sheet per bulan Hijriyah (format LPJ_KARYAWAN),
+     ditambah sheet REKAP LPJ (saldo awal, pemasukan, pengeluaran, saldo akhir).
+  3. Atau Cetak (A4) langsung dari aplikasi.
+  Isi Atur > Data pemegang kas dulu supaya nama dan tanda tangan terisi.
+
+E. FOTO NOTA
+  - Pembaca nota butuh internet SAAT PERTAMA dipakai (mengunduh mesin baca beberapa MB).
+    Fotonya dibaca di HP, tidak dikirim ke mana pun dan tidak disimpan.
+  - Foto yang terang, lurus, tidak terlipat memberi hasil terbaik.
+  - Hasil bisa keliru. Selalu cek nama, jumlah, harga. Total di nota dibandingkan dengan
+    jumlah barang; kalau beda, ada baris yang salah baca.
+
+F. CADANGAN (PENTING)
+  - Data hanya ada di perangkat ini. Kalau data browser dihapus, data hilang.
+  - Atur > Unduh cadangan, lalu simpan file .json di tempat aman, terutama sebelum setor LPJ.
+  - Pindah HP/laptop: unduh cadangan, buka aplikasi di perangkat baru, Pulihkan dari file.
+  - Data di HP dan laptop tidak tersinkron otomatis.
+
+G. KALAU ADA MASALAH
+  - Tampilan lama terus muncul: tutup semua tab, buka lagi, muat ulang 2 kali.
+  - Ikon layar utama salah: hapus ikon, buka alamat di Safari, Tambah ke Layar Utama lagi.
+  - Animasi pembuka tidak muncul: normal kalau HP diatur "kurangi gerakan"; logo tampil diam.
+  - Excel gagal dibuat: gunakan Safari/Chrome versi terbaru (iPhone iOS 16.4 ke atas).
